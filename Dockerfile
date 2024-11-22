@@ -24,7 +24,7 @@ RUN apt update && apt install -y --no-install-recommends \
   && yarn --version
 
 # install PHP and Composer
-ENV PHP_VERSION 8.1.30-*
+ENV PHP_VERSION 8.1.31-*
 RUN apt update && apt install -y --no-install-recommends \
     php8.1-bcmath=$PHP_VERSION \
     php8.1-curl=$PHP_VERSION \
